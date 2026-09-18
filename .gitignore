@@ -1,0 +1,68 @@
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# =========================
+# ROS2 / colcon
+# =========================
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# =========================
+# Datasets
+# =========================
+data/
+*.bin
+
+# =========================
+# Models / checkpoints
+# =========================
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+
+# =========================
+# Third-party repositories
+# =========================
+third_party/OpenPCDet/
+
+# =========================
+# ROS bags
+# =========================
+*.bag
+*.db3
+rosbag2_*/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+*.log
+*.tmp
+core
+
+# Accidental nested colcon artifacts
+**/build/
+**/install/
+**/log/
